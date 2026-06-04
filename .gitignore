@@ -1,0 +1,43 @@
+# Build output
+build/
+_build/
+cmake-build-*/
+
+# Pico SDK generated
+*.elf
+*.elf.map
+*.hex
+*.bin
+*.uf2
+*.dis
+*.disasm
+*.asm
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+compile_commands.json
+_deps/
+generated/
+
+# Object files
+*.o
+*.d
+*.pyc
+*.swp
+*.swo
+*~
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Machine-local dev config (OpenOCD paths, etc.)
+.local_env
